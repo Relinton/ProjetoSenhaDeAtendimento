@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Painel";
+}
+
+<h1 class="painel-senha text-center cabecalho">Painel de Senhas</h1>
+
+<div class="row conteudo">
+    <div class="col-md-8 conteudo-painel">
+        <h1 class="senha-alinhada">
+            <span>Senha: </span><span id="senha"></span>
+            <span>Guichê: </span><span id="guiche"></span>
+        </h1>
+    </div>
+
+    <div class="col-md-4 conteudo-Painel">
+        <h3 class="ultima-chamada-alinhada">ÚLTIMAS CHAMADAS</h3>
+
+        <div id="senhasChamadas">
+        </div>
+    </div>
+
+</div>
+
+<div class="row rodape">
+</div>
+
+<audio id="notificacao" preload="auto" controls="controls">
+    <source src="~/audio/sms-alert-1-daniel_simon.mp3" type="audio/mpeg" />
+</audio>
+
+
+<link href="~/css/painel.css" rel="stylesheet" />
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/js/painel.js"></script>
+

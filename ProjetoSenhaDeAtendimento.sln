@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0007B57D-7089-469E-BE19-76BFBC3596EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{61AFDBFD-5BE9-43CB-A7FE-259B8263DF6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenhaDeAtendimento.Application", "SenhaDeAtendimento.Application\SenhaDeAtendimento.Application.csproj", "{3C1506F1-03B9-49A6-AA3C-98DE3B9F253E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C1506F1-03B9-49A6-AA3C-98DE3B9F253E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C1506F1-03B9-49A6-AA3C-98DE3B9F253E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C1506F1-03B9-49A6-AA3C-98DE3B9F253E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C1506F1-03B9-49A6-AA3C-98DE3B9F253E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{61AFDBFD-5BE9-43CB-A7FE-259B8263DF6D} = {0007B57D-7089-469E-BE19-76BFBC3596EA}
+		{3C1506F1-03B9-49A6-AA3C-98DE3B9F253E} = {61AFDBFD-5BE9-43CB-A7FE-259B8263DF6D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BAF8B6BF-5360-4BE3-BFEC-19405847375B}
+	EndGlobalSection
+EndGlobal
