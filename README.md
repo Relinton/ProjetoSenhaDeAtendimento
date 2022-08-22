@@ -24,8 +24,8 @@ e orientação dos clientes, Otimização do fluxo de entrada e saída de pessoa
 - C#
 
 ## Ferramentas utilizadas
-Visual Studio 2022
-Microsoft SQL Server Management Studio 18
+- Visual Studio 2022
+- Microsoft SQL Server Management Studio 18
 
 # Autor
 Relinton Pinheiro
